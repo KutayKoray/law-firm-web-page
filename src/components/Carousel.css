@@ -1,0 +1,58 @@
+.carousel {
+  padding: 10px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  max-height:fit-content;
+  margin-top: 20px;
+}
+
+.carousel h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Dots (alt navigasyon noktaları) */
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button:before {
+  color: #2C3E50;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #FFD700;
+}
+
+/* Carousel ok tuşlarının rengini değiştirme */
+.slick-prev:before,
+.slick-next:before {
+  color: #2C3E50;
+  font-size: 24px;
+}
+
+/* Ok tuşlarına hover efekti */
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: #FFD700;
+}
+
+/* Ok tuşlarının pozisyonunu ayarla */
+.slick-prev {
+  left: 10px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 10px;
+  z-index: 1;
+}

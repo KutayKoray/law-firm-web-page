@@ -1,0 +1,32 @@
+.navbar-logo {
+  width: 20%;
+  height: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff7f07;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+/* Mobil cihazlar için navbar stilleri */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #2C3E50;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 10px 0;
+  }
+}
