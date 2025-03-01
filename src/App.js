@@ -9,7 +9,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router basename="/law-firm-web-page.github.io">  {/* GitHub Pages için basename ekledik */}
+    <Router>
       <div className="App">
         <Navbar />
         <Routes>

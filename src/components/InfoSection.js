@@ -17,7 +17,7 @@ const InfoSection = () => {
             </p>
           </div>
           <div className="info-image">
-            <img src="/img/info-section.jpg" alt="Neden Biz?" />
+            <img src="/img/content2.jpeg" alt="Neden Biz?" />
           </div>
         </div>
       </div>
